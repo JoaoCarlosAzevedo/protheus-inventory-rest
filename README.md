@@ -104,4 +104,4 @@ POST http://localhost:port/rest/transactions/{productCode}
     "lotnumber": String,
     "warehouse": String
 }
-``` 
+```  

@@ -38,13 +38,13 @@ Return(lPost)
 User Function CreateSD3(oJson)  
     Local cRet := "" 
     Local aRotAuto := {}   
-    Local aLogAuto := {}@
+    Local aLogAuto := {}
     Local cLogTxt := ""
     Local nAux
 
     Private lAutoErrNoFile := .T.
  
-    private lMsErroAuto    := .F. 
+    private lMsErroAuto    := .F.  
  
     aRotAuto := {   {"D3_FILIAL"	,xFilial("SD3")	  ,Nil},; 
                     {"D3_TM"		,oJson:tm	      ,Nil},; 
